@@ -1,0 +1,1 @@
+https://docs.spring.io/spring-security-kerberos/docs/1.0.2.BUILD-SNAPSHOT/reference/htmlsingle/#samples-sec-server-win-auth
