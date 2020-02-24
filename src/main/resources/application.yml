@@ -1,0 +1,9 @@
+server:
+    port: 8080
+app:
+    ad-domain: SYNECHRON.COM
+    ad-server: ldap://localhost/
+    service-principal: HTTP/localhost@synechron.com
+    keytab-location: /tmp/tomcat.keytab
+    ldap-search-base: dc=example,dc=org
+    ldap-search-filter: "(| (userPrincipalName={0}) (sAMAccountName={0}))"
